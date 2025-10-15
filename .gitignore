@@ -1,0 +1,5 @@
+.env
+/target
+Cargo.lock
+testnet
+src/frontend/interface/.vite
