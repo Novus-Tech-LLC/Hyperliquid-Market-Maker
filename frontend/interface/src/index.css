@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes gradientBG {
+  0%   { background-position:   0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position:   0% 50%; }
+}
+
+.bg-special {
+  background: 
+    /* your custom palette here */
+    linear-gradient(
+      90deg,
+      black,
+      gray,
+      gray,
+      black
+    );
+  background-size: 300% 300%;
+  animation: gradientBG 120s ease infinite;
+}
